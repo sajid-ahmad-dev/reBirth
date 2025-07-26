@@ -7,7 +7,7 @@ export const GET = async (request: Request) => {
   });
 
   const data = await payload.find({
-    collection: "users",
+    collection: "media",
   });
 
   return Response.json(data);
